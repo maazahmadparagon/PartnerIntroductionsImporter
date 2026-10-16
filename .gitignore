@@ -1,0 +1,21 @@
+# Credentials - only secrets.sample.config is committed
+secrets.config
+**/secrets.config
+
+# Backups of source files (may contain old hardcoded credentials)
+*.bak
+*.bak-*
+
+# Run logs (contain customer personal data)
+Logs/
+*.log
+
+# Build output / IDE
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# NuGet packages (restored on build)
+packages/
